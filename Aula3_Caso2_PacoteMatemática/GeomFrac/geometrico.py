@@ -19,7 +19,7 @@ class Retangulo:
 
 class Quadrado(Retangulo):
     def __init__(self, lado):
-        super().init(lado, lado)
+        super().__init__(lado, lado)
     
     @property
     def lado(self):
@@ -27,7 +27,7 @@ class Quadrado(Retangulo):
     
     @lado.setter
     def lado(self, newside):
-        if side < 0:
+        if newside < 0:
             raise ValueError("Quadrados não podem ter lado negativo")
         self.__altura = newside
         self.__largura = newside
