@@ -1,0 +1,1 @@
+Caso já resolvido em 'Aula5_Caso2_ClienteArmazenado.py'
